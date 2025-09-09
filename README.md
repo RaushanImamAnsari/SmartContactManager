@@ -46,8 +46,9 @@ Copy code
 
 ## ⚡ Getting Started & Setup  
 
-### 1️⃣ Clone the Repository
+ 
 ```
+1️⃣ Clone the Repository  
 bash  
 git clone https://github.com/RaushanImamAnsari/SmartContactManager.git    
 cd SmartContactManager  
@@ -69,10 +70,10 @@ mvn spring-boot:run
 👉 Visit http://localhost:8080 to access the app.  
 ```
 
-(Optional) Database Schema
-sql
-Copy code
-CREATE TABLE users (  
+(Optional) Database Schema  
+sql  
+Copy code  
+CREATE TABLE users (   
     id INT AUTO_INCREMENT PRIMARY KEY,  
     name VARCHAR(100),   
     email VARCHAR(100) UNIQUE,  
