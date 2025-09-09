@@ -27,17 +27,17 @@ A polished **Contact Management System** developed with **Spring Boot**, featuri
 
 ##  Project Structure
 
-SmartContactManager/
-├── src/
-│ ├── main/
-│ │ ├── java/com/... # Controllers, Models, Services, Repositories, Config
-│ │ └── resources/
-│ │ ├── templates/ # Thymeleaf HTML views
-│ │ └── static/ # CSS (Tailwind-generated), JS (if any)
-├── pom.xml # Maven configuration
-├── package.json # For managing frontend dependencies
-├── src/main/resources/application.properties
-└── Tailwind config files
+SmartContactManager/  
+├── src/  
+│ ├── main/  
+│ │ ├── java/com/... # Controllers, Models, Services, Repositories, Config  
+│ │ └── resources/  
+│ │ ├── templates/ # Thymeleaf HTML views  
+│ │ └── static/ # CSS (Tailwind-generated), JS (if any)  
+├── pom.xml # Maven configuration  
+├── package.json # For managing frontend dependencies  
+├── src/main/resources/application.properties  
+└── Tailwind config files  
 
 yaml
 Copy code
@@ -71,48 +71,49 @@ Visit http://localhost:8080 to access the app.
 (Optional) Database Schema
 sql
 Copy code
-CREATE TABLE users (
-    id INT AUTO_INCREMENT PRIMARY KEY,
-    name VARCHAR(100),
-    email VARCHAR(100) UNIQUE,
-    password VARCHAR(255),
-    provider ENUM('LOCAL', 'GOOGLE', 'GITHUB'),
-    roles VARCHAR(50)
-);
+CREATE TABLE users (  
+    id INT AUTO_INCREMENT PRIMARY KEY,  
+    name VARCHAR(100),   
+    email VARCHAR(100) UNIQUE,  
+    password VARCHAR(255),  
+    provider ENUM('LOCAL', 'GOOGLE', 'GITHUB'),  
+    roles VARCHAR(50)  
+);  
 
-CREATE TABLE contacts (
-    id INT AUTO_INCREMENT PRIMARY KEY,
-    user_id INT,
-    name VARCHAR(100),
-    email VARCHAR(100),
-    phone VARCHAR(20),
-    notes TEXT,
-    FOREIGN KEY (user_id) REFERENCES users(id)
-);
-Future Enhancements
-Add Images or Avatars for contacts
+CREATE TABLE contacts (  
+    id INT AUTO_INCREMENT PRIMARY KEY,  
+    user_id INT,   
+    name VARCHAR(100),  
+    email VARCHAR(100),  
+    phone VARCHAR(20),  
+    notes TEXT,  
+    FOREIGN KEY (user_id) REFERENCES users(id)  
+);  
 
-Implement contact groups or tags
+##Future Enhancements
+Add Images or Avatars for contacts  
 
-Advanced search and pagination
+Implement contact groups or tags  
 
-RESTful API + mobile frontend
+Advanced search and pagination  
 
-Import/export contacts (CSV, vCard)
+RESTful API + mobile frontend  
 
-Contribution
-Contributions are welcome!
+Import/export contacts (CSV, vCard)  
 
-Fork the project
+Contribution  
+Contributions are welcome!  
 
-Create a new feature branch (git checkout -b feature/your-feature)
+Fork the project  
 
-Commit your changes (git commit -m "feat: ..."), push, and open a PR
+Create a new feature branch (git checkout -b feature/your-feature)  
 
-Author
-Raushan Imam Ansari
-Built with care using Spring Boot and modern UI practices.
-Repo: SmartContactManager
+Commit your changes (git commit -m "feat: ..."), push, and open a PR  
+
+Author  
+Raushan Imam Ansari  
+Built with care using Spring Boot and modern UI practices.  
+Repo: SmartContactManager  
 
 yaml
 Copy code
@@ -121,9 +122,9 @@ Copy code
 
 ###  Just Paste & Go:
 
-1. **Copy** the content above.
-2. In your project root on GitHub, click **Add file → Create new file**, name it `README.md`, and **paste**.
-3. Commit to your repo.
+1. **Copy** the content above.  
+2. In your project root on GitHub, click **Add file → Create new file**, name it `README.md`, and **paste**.  
+3. Commit to your repo.  
 
-Let me know if you'd like to add any visuals or enhance sections like API usage or deployment instructions!
-::contentReference[oaicite:0]{index=0}
+Let me know if you'd like to add any visuals or enhance sections like API usage or deployment instructions!  
+::contentReference[oaicite:0]{index=0}  
