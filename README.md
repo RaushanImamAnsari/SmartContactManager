@@ -90,24 +90,19 @@ CREATE TABLE contacts (
     FOREIGN KEY (user_id) REFERENCES users(id)  
 );  
 
-##Future Enhancements
+##  Future Enhancements  
 Add Images or Avatars for contacts  
-
 Implement contact groups or tags  
-
 Advanced search and pagination  
-
 RESTful API + mobile frontend  
-
 Import/export contacts (CSV, vCard)  
 
-Contribution  
+## Contribution  
 Contributions are welcome!  
 
-Fork the project  
+## Fork the project  
 
 Create a new feature branch (git checkout -b feature/your-feature)  
-
 Commit your changes (git commit -m "feat: ..."), push, and open a PR  
 
 Author  
