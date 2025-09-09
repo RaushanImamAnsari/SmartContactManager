@@ -4,7 +4,7 @@ A polished **Contact Management System** developed with **Spring Boot**, featuri
 
 ---
 
-##  Features
+## 🚀 Features  
 
 - **User Authentication**: Sign up / log in via email, Google, or GitHub (OAuth).
 - **Responsive UI**: Light and Dark mode switch powered by Tailwind CSS.
@@ -14,7 +14,7 @@ A polished **Contact Management System** developed with **Spring Boot**, featuri
 
 ---
 
-##  Tech Stack
+## 🛠 Tech Stack  
 
 | Layer               | Tools / Frameworks                                     |
 |--------------------|--------------------------------------------------------|
@@ -25,7 +25,7 @@ A polished **Contact Management System** developed with **Spring Boot**, featuri
 
 ---
 
-##  Project Structure
+## 📂 Project Structure  
 
 SmartContactManager/  
 ├── src/  
@@ -44,29 +44,30 @@ Copy code
 
 ---
 
-##  Getting Started & Setup
+## ⚡ Getting Started & Setup  
 
-1. **Clone the repository**
+### 1️⃣ Clone the Repository
+```
+bash  
+git clone https://github.com/RaushanImamAnsari/SmartContactManager.git    
+cd SmartContactManager  
 
-   ```bash
-   git clone https://github.com/RaushanImamAnsari/SmartContactManager.git
-   cd SmartContactManager
-Configure application properties
+2️⃣ Configure application properties  
+Set your authentication and datasource parameters in  
+src/main/resources/application.properties.  
 
-Set your authentication and datasource parameters in src/main/resources/application.properties.
-
-Install frontend dependencies & build styles
-
+3️⃣ Install frontend dependencies & build styles  
 bash
-Copy code
+Copy code  
 npm install
-npm run build:css
-Run the Spring Boot application
+npm run build:css  
 
+4️⃣ Run the Spring Boot application  
 bash
 Copy code
-mvn spring-boot:run
-Visit http://localhost:8080 to access the app.
+mvn spring-boot:run  
+👉 Visit http://localhost:8080 to access the app.  
+```
 
 (Optional) Database Schema
 sql
@@ -90,23 +91,23 @@ CREATE TABLE contacts (
     FOREIGN KEY (user_id) REFERENCES users(id)  
 );  
 
-##  Future Enhancements  
+## 🌱 Future Enhancements  
+
 Add Images or Avatars for contacts  
 Implement contact groups or tags  
 Advanced search and pagination  
 RESTful API + mobile frontend  
 Import/export contacts (CSV, vCard)  
 
-## Contribution  
+## 🤝 Contribution  
+
 Contributions are welcome!  
-
-## Fork the project  
-
+Fork the project  
 Create a new feature branch (git checkout -b feature/your-feature)  
-Commit your changes (git commit -m "feat: ..."), push, and open a PR  
+Commit your changes (git commit -m "feat: ..."), push, and open a PR    
 
-## Author  
-*RAUSHAN IMAM ANSARI* 
+## 👨‍💻 Author  
+**RAUSHAN IMAM ANSARI**   
 Built with care using Spring Boot and modern UI practices.  
 Repo: SmartContactManager  
 
