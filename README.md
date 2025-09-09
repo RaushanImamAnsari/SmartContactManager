@@ -106,12 +106,9 @@ Create a new feature branch (git checkout -b feature/your-feature)
 Commit your changes (git commit -m "feat: ..."), push, and open a PR  
 
 ## Author  
-RAUSHAN IMAM ANSARI  
+*RAUSHAN IMAM ANSARI* 
 Built with care using Spring Boot and modern UI practices.  
 Repo: SmartContactManager  
-
-yaml
-Copy code
 
 ---
 
