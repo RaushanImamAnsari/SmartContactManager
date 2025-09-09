@@ -105,8 +105,8 @@ Contributions are welcome!
 Create a new feature branch (git checkout -b feature/your-feature)  
 Commit your changes (git commit -m "feat: ..."), push, and open a PR  
 
-Author  
-Raushan Imam Ansari  
+## Author  
+RAUSHAN IMAM ANSARI  
 Built with care using Spring Boot and modern UI practices.  
 Repo: SmartContactManager  
 
