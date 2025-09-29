@@ -1,4 +1,4 @@
-# SmartContactManager
+# 📞 SmartContactManager
 
 A polished **Contact Management System** developed with **Spring Boot**, featuring multi-auth (email, Google, GitHub) via Spring Security, alongside theme toggling (light/dark), clean UI using **TailwindCSS + Thymeleaf**, and secure backend architecture.
 
