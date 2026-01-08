@@ -53,7 +53,6 @@ public class PageController {
     }
 
     // services
-
     @RequestMapping("/services")
     public String servicesPage() {
         System.out.println("services page loading");
@@ -61,7 +60,6 @@ public class PageController {
     }
 
     // contact page
-
     @GetMapping("/contact")
     public String contact() {
         return new String("contact");
