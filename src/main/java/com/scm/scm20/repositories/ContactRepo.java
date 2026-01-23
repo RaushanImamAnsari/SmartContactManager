@@ -12,7 +12,6 @@ import org.springframework.stereotype.Repository;
 import com.scm.scm20.entities.Contact;
 import com.scm.scm20.entities.User;
 
-
 @Repository
 public interface ContactRepo extends JpaRepository<Contact, String> {
     // find the contact by user
